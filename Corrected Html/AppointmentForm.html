@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Amani's Barbershop - Appointment Form</title>
+</head>
+<body bgcolor="skyblue"><center>
+<header style="background-color:lightslategrey; color: black; text-align: center; padding: 10px 0;">
+
+
+  <h1>Online Amani's Barbershop - Appointment Form</h1>
+  <form action="form_submission.php" method="post">  <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Your First Name" required><br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" placeholder="Your Last Name" required><br><br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number (e.g. 123-456-7890)" required><br><br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="Your Email Address" required><br><br>
+    <label for="service">Select Service:</label>
+    <select id="service" name="service" required>
+      <option value="">-- Select Service --</option>
+      <option value="haircut">Haircut</option>
+      <option value="shave">Shave</option>
+      <option value="beardtrim">Beard Trim</option>
+      </select><br><br>
+    <label for="date">Appointment Date:</label>
+    <input type="date" id="date" name="date" required><br><br>
+    <label for="time">Appointment Time:</label>
+    <input type="time" id="time" name="time" required><br><br>
+    <textarea id="additionalInfo" name="additionalInfo" rows="4" placeholder="Additional Information (Optional)"></textarea><br><br>
+    <button type="submit">Book Appointment</button>
+   
+<a href="home.html" style="color: #333; text-decoration: none; padding: 10px; border-radius: 5px; background-color: #ccc; margin-right: 10px;"index.html">Back to Home</a>  </form>
+</center>
+</body>
+</html>
